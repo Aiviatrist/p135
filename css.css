@@ -1,0 +1,9 @@
+.heading{
+    width:100%;
+    margin:0px;
+}
+canvas{
+    box-shadow: 5px 5px 5px dimgrey;
+    border-radius:20px;
+    border:black 2px dashed;
+}
