@@ -1,6 +1,6 @@
 statius="";
 function setup(){
-    canvas=createCanvas(480,480);
+    canvas=createCanvas(400,400);
     canvas.center();
     video=createCapture(VIDEO);
     video.size(400,400);
@@ -11,6 +11,7 @@ function Start(){
     document.getElementById("status").innerHTML="Status: Detecting objects";
     input=document.getElementById("input").value;
 }
+
 function modelloaded(){
     console.log("model loaded!");
     statius=true;
